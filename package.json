@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "frontend": "yarn dev --prefix ../frontend/",
-    "backend": "yarn dev --prefix ../backend/",
+    "frontend": "cd frontend && pnpm dev",
+    "backend": "cd backend && pnpm develop",
     "clear": "cd frontend && rm -rf .next && rm -rf cache",
-    "setup:frontend": "cd frontend && yarn",
-    "setup:backend": "cd backend && yarn",
-    "setup": "yarn install && yarn setup:frontend && yarn setup:backend",
-    "dev": "yarn clear && concurrently \"cd frontend && yarn dev\" \"cd backend && yarn develop\"",
-    "seed": "cd backend && yarn strapi import -f ../seed-data.tar.gz",
-    "export": "cd backend && yarn strapi export --no-encrypt -f ../seed-data",
+    "setup:frontend": "cd frontend && pnpm install",
+    "setup:backend": "cd backend && pnpm install",
+    "setup": "pnpm install && pnpm setup:frontend && pnpm setup:backend",
+    "dev": "pnpm clear && concurrently \"cd frontend && pnpm dev\" \"cd backend && pnpm develop\"",
+    "seed": "cd backend && pnpm strapi import -f ../seed-data.tar.gz",
+    "export": "cd backend && pnpm strapi export --no-encrypt -f ../seed-data",
     "repo:upstream": "git fetch upstream && git merge upstream/main"
   },
   "dependencies": {

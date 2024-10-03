@@ -1,21 +1,20 @@
-**IMPORTANT NOTE:**
+# 변경사항
 
-Thank you to all the amazing people for your support—this project has been a blast! With the release of Strapi 5, @Mcastres has launched an even more awesome demo/starter project called LaunchPad.
+## PackageManager
 
-You can learn more about the LaunchPad app [here](https://strapi.io/blog/launchpad-demo-app) and check out the project repo: https://github.com/strapi/LaunchPad.
+- yarn -> pnpm
 
-What does this mean? We’ll be archiving this project and moving forward with LaunchPad as the new starter and demo.
+## Backend
 
-If you're interested in updating this project to Strapi 5, you can find the code in the following [branch](https://github.com/strapi/nextjs-corporate-starter/tree/strapi-5-update-process), and I’ve outlined the steps in this [blog post](https://strapi.io/blog/how-to-migrate-your-project-from-strapi-4-to-strapi-5).
+- Strapi : v4 -> v5
+- DB : sqlite -> postgresql
 
-If you have any questions about the migration, feel free to ask here or join us during open office hours on Discord, where I’ll be available to answer them live.
+## Frontend
 
-Morning Session: Join us at 4 AM CST (9:00 AM GMT) for our new early bird session, perfect for our global community members!
+- Strapi API : v4 -> v5
+- lang 라우터 삭제
 
-Afternoon Session: Don’t forget our regular session at 12:30 PM CST (6:30 PM GMT), a great time for an afternoon break and chat!
-
-https://discord.com/invite/strapi
-
+---
 
 # Strapi Starter Next 14, Tailwind, Typescript and Strapi
 

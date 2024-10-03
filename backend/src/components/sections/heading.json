@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_headings",
   "info": {
-    "displayName": "Heading"
+    "displayName": "Heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

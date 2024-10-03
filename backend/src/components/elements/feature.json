@@ -22,12 +22,10 @@
       "multiple": false
     },
     "showLink": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "newTab": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "url": {
       "type": "string"

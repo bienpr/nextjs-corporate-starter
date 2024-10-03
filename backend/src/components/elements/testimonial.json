@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_slices_testimonials",
+  "collectionName": "components_elements_testimonials",
   "info": {
-    "name": "Testimonial",
     "displayName": "Testimonial",
-    "icon": "user-check",
     "description": ""
   },
   "options": {},

@@ -16,8 +16,7 @@
       "type": "string"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "name"
+      "type": "uid"
     },
     "articles": {
       "type": "relation",

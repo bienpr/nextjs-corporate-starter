@@ -17,8 +17,7 @@
     },
     "description": {
       "type": "text",
-      "maxLength": 256,
-      "required": true
+      "maxLength": 80
     },
     "slug": {
       "type": "uid",
@@ -33,6 +32,12 @@
         "files",
         "videos"
       ]
+    },
+    "authorsBio": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "articles"
     },
     "category": {
       "type": "relation",
@@ -50,15 +55,9 @@
         "shared.video-embed"
       ]
     },
-    "authorsBio": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "articles"
-    },
     "seo": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "shared.seo"
     }
   }

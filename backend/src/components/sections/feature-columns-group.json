@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_slices_feature_columns_groups",
+  "collectionName": "components_sections_feature_columns_groups",
   "info": {
-    "name": "FeatureColumnsGroup",
-    "displayName": "Feature columns group",
-    "icon": "star-of-life"
+    "displayName": "Feature columns group"
   },
   "options": {},
   "attributes": {

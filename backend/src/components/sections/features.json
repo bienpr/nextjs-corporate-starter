@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_layout_features",
+  "collectionName": "components_sections_features",
   "info": {
-    "displayName": "Features",
-    "description": ""
+    "displayName": "Features"
   },
   "options": {},
   "attributes": {
@@ -13,7 +12,6 @@
       "type": "text"
     },
     "feature": {
-      "displayName": "Feature",
       "type": "component",
       "repeatable": true,
       "component": "elements.feature"

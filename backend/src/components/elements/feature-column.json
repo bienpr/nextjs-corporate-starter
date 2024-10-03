@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_slices_feature_columns",
+  "collectionName": "components_elements_feature_columns",
   "info": {
-    "name": "FeatureColumn",
     "displayName": "Feature column",
-    "icon": "align-center",
     "description": ""
   },
   "options": {},
@@ -16,12 +14,12 @@
       "type": "text"
     },
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -4,20 +4,17 @@
   "info": {
     "singularName": "lead-form-submission",
     "pluralName": "lead-form-submissions",
-    "displayName": "Lead form submission",
-    "name": "lead-form-submission",
-    "description": ""
+    "displayName": "Lead form submission"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "email": {
       "type": "string"
     },
-    "status": {
+    "statuses": {
       "type": "enumeration",
       "enum": [
         "seen",

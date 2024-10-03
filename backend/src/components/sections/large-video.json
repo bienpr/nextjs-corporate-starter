@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_slices_large_videos",
+  "collectionName": "components_sections_large_videos",
   "info": {
-    "name": "LargeVideo",
-    "displayName": "Large video",
-    "icon": "play-circle"
+    "displayName": "Large video"
   },
   "options": {},
   "attributes": {
@@ -11,7 +9,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "video": {
       "allowedTypes": [
@@ -26,8 +24,7 @@
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": false
+      "multiple": false
     }
   }
 }

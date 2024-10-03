@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_links_buttons",
+  "collectionName": "components_links_button_links",
   "info": {
-    "name": "Button-link",
     "displayName": "Button link",
-    "icon": "fingerprint",
     "description": ""
   },
   "options": {},

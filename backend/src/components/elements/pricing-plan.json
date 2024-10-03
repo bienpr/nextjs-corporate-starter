@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_pricing_plans",
+  "info": {
+    "displayName": "Pricing plan"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isRecommended": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "pricePeriod": {
+      "type": "string"
+    },
+    "product_features": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-feature.product-feature"
+    }
+  }
+}
